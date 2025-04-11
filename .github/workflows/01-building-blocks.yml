@@ -7,7 +7,7 @@ jobs:
       - name: Say hello
         run: echo "Hello Wold!"
   echo-goodbye:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Failed step
         run: |
