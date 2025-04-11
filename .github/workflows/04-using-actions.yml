@@ -15,5 +15,5 @@ jobs:
           node-version: '22.x'
       - name: Install Dependencies
         run: npm ci
-      - name: run unit tests
+      - name: Run Unit Tests
         run: npm test
